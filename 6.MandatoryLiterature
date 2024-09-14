@@ -1,0 +1,8 @@
+
+int numberPages = int.Parse(Console.ReadLine());
+int pagesPerHour = int.Parse(Console.ReadLine());
+int daysForBook = int.Parse(Console.ReadLine());
+
+int totalHours = numberPages / pagesPerHour;
+int totalTime = totalHours / daysForBook;
+Console.WriteLine(totalTime);
