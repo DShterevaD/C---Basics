@@ -1,0 +1,15 @@
+
+int nylonMeters = int.Parse(Console.ReadLine());
+int paintLiters =  int.Parse(Console.ReadLine());
+int thinnerLiters =  int.Parse(Console.ReadLine());
+int workingHours =  int.Parse(Console.ReadLine());
+
+double nylonPrice = (nylonMeters + 2) * 1.50;
+double paintPrice = (paintLiters + (paintLiters * 0.10)) * 14.50;
+double thinnerPrice = thinnerLiters * 5.00;
+double bagsPrice = 0.40;
+
+double workPerHourPrice = (nylonPrice + paintPrice + thinnerPrice + bagsPrice) * 0.30;
+double totalWorkPrice = workPerHourPrice * workingHours;
+
+Console.WriteLine(nylonPrice + paintPrice + thinnerPrice + bagsPrice + totalWorkPrice);
