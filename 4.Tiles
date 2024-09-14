@@ -1,0 +1,15 @@
+
+double bathWidth = double.Parse(Console.ReadLine());
+double bathHeight =  double.Parse(Console.ReadLine());
+double tileWidth =  double.Parse(Console.ReadLine());
+double tileHeight =  double.Parse(Console.ReadLine());
+
+double bathArea = bathHeight * bathWidth;
+
+bathArea = bathArea + 0.10 * bathArea;
+
+double tileArea = tileWidth * tileHeight;
+
+double tilesNeeded = bathArea / tileArea;
+
+Console.WriteLine(Math.Round(tilesNeeded));
