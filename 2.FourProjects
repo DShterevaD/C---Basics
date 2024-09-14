@@ -1,0 +1,13 @@
+
+double firstNumber = double.Parse(Console.ReadLine());
+double secondNumber = double.Parse(Console.ReadLine());
+
+double sum = firstNumber + secondNumber;
+double substr =  firstNumber - secondNumber;
+double multypl = firstNumber * secondNumber;
+double divide =  firstNumber / secondNumber;
+
+Console.WriteLine($"{firstNumber:F2} + {secondNumber:F2} = {sum:F2}");
+Console.WriteLine($"{firstNumber:F2} - {secondNumber:F2} = {substr:F2}");
+Console.WriteLine($"{firstNumber:F2} * {secondNumber:F2} = {multypl:F2}");
+Console.WriteLine($"{firstNumber:F2} / {secondNumber:F2} = {divide:F2}");
