@@ -1,0 +1,12 @@
+int number = 1;
+
+while (number <= 100)
+{
+    Console.WriteLine(number);
+    number++;
+}
+
+for (int num = number; num <= 100; num++)
+{
+    Console.WriteLine(num);
+}
