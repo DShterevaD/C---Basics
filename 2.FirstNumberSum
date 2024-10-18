@@ -1,0 +1,18 @@
+int startNumber = 1;
+int endNumber = int.Parse(Console.ReadLine());
+int sum = 0;
+
+for (int number = startNumber; number <= endNumber; number++)
+{
+    if (number != endNumber)
+    {
+        Console.Write(number + "+");
+    }
+    else
+    {
+        Console.Write(number + "=");
+    }
+
+    sum += number;
+}
+Console.Write(sum);
