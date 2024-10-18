@@ -1,0 +1,16 @@
+int read = int.Parse(Console.ReadLine());
+
+/*for (int startNumber = 7; startNumber <= read; startNumber += 10)
+{
+        Console.WriteLine(startNumber);
+}*/
+
+//2 nachin
+
+for (int number = 7; number <= read; number++)
+{
+    if (number % 10 == 7)
+    {
+        Console.WriteLine(number);
+    }
+}
