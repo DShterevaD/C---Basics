@@ -1,0 +1,10 @@
+int count = int.Parse(Console.ReadLine());
+
+double sum = 0;
+
+for (int number = 1; number <= count; number++)
+{
+    double value = double.Parse(Console.ReadLine());
+    sum += value;
+}
+Console.WriteLine(sum);
