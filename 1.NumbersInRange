@@ -1,0 +1,7 @@
+int start = int.Parse(Console.ReadLine());
+int end = int.Parse(Console.ReadLine());
+
+for (int number = start; number <= end; number++)
+{
+    Console.WriteLine(number);
+}
