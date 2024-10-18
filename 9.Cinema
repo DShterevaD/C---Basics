@@ -1,0 +1,19 @@
+string type = Console.ReadLine();
+int rows = int.Parse(Console.ReadLine());
+int seatsPerRow = int.Parse(Console.ReadLine());
+
+double total = 0;
+
+if (type == "Premiere")
+{
+    total = 12.00 * rows * seatsPerRow;
+}
+else if (type == "Normal")
+{
+    total = 7.50 * rows * seatsPerRow;
+}
+else if (type == "Discount")
+{
+    total = 5.00 * rows * seatsPerRow;
+}
+Console.WriteLine($"{total:F2}");
