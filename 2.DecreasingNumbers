@@ -1,0 +1,14 @@
+using System.Runtime.InteropServices;
+
+int n = int.Parse(Console.ReadLine());
+
+while (n >= 1)
+{
+    Console.WriteLine(n);
+    n--;
+}
+
+for (int number = n; number >= 1; number--)
+{
+    Console.WriteLine(number);
+}
